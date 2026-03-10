@@ -10,7 +10,7 @@ Stroke is a major global health problem and a leading cause of mortality and dis
 * Provide clinical recommendations for early intervention.
 * Discuss ethical considerations in healthcare prediction systems.
 
-### Dataset Description
+### 2. Dataset Description
 | Feature           | Description                                 |
 | ----------------- | ------------------------------------------- |
 | age               | Patient age                                 |
@@ -25,6 +25,16 @@ Stroke is a major global health problem and a leading cause of mortality and dis
 | smoking_status    | Smoking behavior                            |
 | stroke            | Target variable (1 = stroke, 0 = no stroke) |
 
+
+### 3. Exploratory Data Analysis (EDA)
+#### 3.1 Data Cleaning
+##### Key preprocessing steps taken:
+* Handle missing values (BMI).
+* Encode categorical variables.
+* Detected outliers(avg_glucose_level, bmi).
+* Checked for class imbalance in the Dataset.
+
+### 3.2 Stroke Distribution
 
 
 
