@@ -32,6 +32,7 @@ Stroke is a major global health problem and a leading cause of mortality and dis
 * Handle missing values: we checked for missing and null values in the datset and found some in the bmi column
 * Encode categorical variables: We use the Label encoding technique to convert categorical (text) data into numerical values so algorithms can process them.
 * Detected outliers: A boxplot and a function was created to detect outliers in the numericl variables in the dataset and we found outliers in avg_glucose_level, bmi columns, then the outliers were replaced with the up and low whiskers respectively.
+* feature scaling
 * Checked for class imbalance in the Dataset: Stroke cases are typically much fewer than non-stroke cases, this leads to class imbalance, which affected model performance.
 
 ### 3.2 Data Visualization
@@ -62,6 +63,27 @@ Observation:
 * Smoking history increases stroke risk.
 * Individuals in private and self-employed categories likely represent the adult working population, which explains the higher number of stroke occurrences in these groups.
 * People in urban areas are more likely to have stroke as compared to the rural areas.
+
+### 4. FEATURE CORRELATION
+A correlation heatmap was used to visualize the relationships between different features in the dataset.From the analysis, age shows a relatively strong positive correlation with ever_married (0.68) and moderate correlations with hypertension, heart disease, and BMI, indicating that these health factors tend to increase with age.
+
+### 5. Predictive Modeling
+#### 5.1 FEATURE SCALING
+Standardized the numerical values of features with standardscaler so that they are on a similar scale.
+
+#### 5.2 TRAIN-TEST-SPLIT
+Dataset was divide into training data (to build the model) and testing data (to evaluate the model).
+
+#### 5.3 TRAINING & TESTING OF MODELS
+LogisticRegression()
+KNeighborsClassifier()
+DecisionTreeClassifier()
+RandomForestClassifier()
+SVC()
+GradientBoostingClassifier()
+XGBClassifier()
+The above models were trained and tested but a cross validation was first of all built to rule out overfitting and underfitting the of models.
+Due to the imbalanced state of the dataset, we trained the models with, firstly with the preprocessed imbalanced set and with a balanced dataset were we used SMOTE to baalnce only the training Datasets 
 
 
 
