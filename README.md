@@ -41,7 +41,13 @@ Observation:
 * Stroke cases are typically much fewer than non-stroke cases.
 * This leads to class imbalance, which affects model performance.
 
+### 3.3 Age,Bmi and Average Glucose Level Vs Stroke
 <img width="2020" height="601" alt="image" src="https://github.com/user-attachments/assets/76bfe728-8465-4e7f-9783-c9679d0734c4" />
+* This pattern suggests a strong positive relationship between age and stroke risk, indicating that stroke probability increases significantly with age
+* This suggests that elevated glucose levels may be associated with increased stroke risk, potentially reflecting underlying metabolic conditions such as diabetes.
+* High BMI (obesity) contributes to risk but may be weaker than age
+
+
 
 
 
