@@ -41,7 +41,7 @@ Observation:
 * Stroke cases are typically much fewer than non-stroke cases.
 * This leads to class imbalance, which affects model performance.
 
-![image alt](<img width="2020" height="601" alt="image" src="https://github.com/user-attachments/assets/76bfe728-8465-4e7f-9783-c9679d0734c4" />)
+<img width="2020" height="601" alt="image" src="https://github.com/user-attachments/assets/76bfe728-8465-4e7f-9783-c9679d0734c4" />
 
 
 
