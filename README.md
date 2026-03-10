@@ -37,6 +37,11 @@ Stroke is a major global health problem and a leading cause of mortality and dis
 ### 3.2 Stroke Distribution
 ![image alt](https://github.com/ifyyoyo/Healthcare-Data-Science-Project-Stroke-Risk-Prediction/blob/a575f92ac3fe844b1737975ce818d0bded178b43/Screenshot%202026-03-10%20110520.png)
 
+Observation:
+* Stroke cases are typically much fewer than non-stroke cases.
+* This leads to class imbalance, which affects model performance.
+
+![image alt](<img width="2020" height="601" alt="image" src="https://github.com/user-attachments/assets/76bfe728-8465-4e7f-9783-c9679d0734c4" />)
 
 
 
