@@ -10,6 +10,21 @@ Stroke is a major global health problem and a leading cause of mortality and dis
 * Provide clinical recommendations for early intervention.
 * Discuss ethical considerations in healthcare prediction systems.
 
+### Dataset Description
+| Feature           | Description                                 |
+| ----------------- | ------------------------------------------- |
+| age               | Patient age                                 |
+| gender            | Male/Female                                 |
+| hypertension      | Whether the patient has hypertension        |
+| heart_disease     | Presence of heart disease                   |
+| ever_married      | Marital status                              |
+| work_type         | Employment type                             |
+| Residence_type    | Urban or Rural                              |
+| avg_glucose_level | Average blood glucose level                 |
+| bmi               | Body Mass Index                             |
+| smoking_status    | Smoking behavior                            |
+| stroke            | Target variable (1 = stroke, 0 = no stroke) |
+
 
 
 
