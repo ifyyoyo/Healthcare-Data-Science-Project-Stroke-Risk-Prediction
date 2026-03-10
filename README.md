@@ -84,7 +84,7 @@ Dataset was divide into training data (to build the model) and testing data (to 
 * XGBClassifier()
   
 The above models were trained and tested but a cross validation was first of all built to rule out overfitting and underfitting the of models.
-Due to the imbalanced state of the dataset, we trained the models with, firstly with the preprocessed imbalanced set and with a balanced dataset were we used SMOTE to balance only the training Datasets 
+Due to the imbalanced state of the dataset, we trained the models with, firstly with the preprocessed imbalanced set and with a balanced dataset were we used SMOTE to balance only the training Datasets.
 
 
 
