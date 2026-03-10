@@ -1,0 +1,2 @@
+# Healthcare-Data-Science-Project-Stroke-Risk-Prediction
+Perform exploratory data analysis  to identify key factors associated with stroke occurrence. Build a classification model that predicts whether a patient is likely to experience a stroke (binary outcome: stroke / no stroke). Provide recommendations for early intervention strategies and discuss ethical considerations in medical risk prediction.
