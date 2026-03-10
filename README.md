@@ -29,10 +29,10 @@ Stroke is a major global health problem and a leading cause of mortality and dis
 ### 3. Exploratory Data Analysis (EDA)
 #### 3.1 Data Cleaning
 ##### Key preprocessing steps taken:
-* Handle missing values (BMI).
-* Encode categorical variables.
-* Detected outliers(avg_glucose_level, bmi).
-* Checked for class imbalance in the Dataset.
+* Handle missing values: we checked for missing and null values in the datset and found some in the bmi column
+* Encode categorical variables: We use the Label encoding technique to convert categorical (text) data into numerical values so algorithms can process them.
+* Detected outliers: A boxplot and a function was created to detect outliers in the numericl variables in the dataset and we found outliers in avg_glucose_level, bmi columns, then the outliers were replaced with the up and low whiskers respectively.
+* Checked for class imbalance in the Dataset: Stroke cases are typically much fewer than non-stroke cases, this leads to class imbalance, which affected model performance.
 
 ### 3.2 Data Visualization
 #### Stroke Distribution
