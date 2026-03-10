@@ -35,7 +35,7 @@ Stroke is a major global health problem and a leading cause of mortality and dis
 * Checked for class imbalance in the Dataset.
 
 ### 3.2 Stroke Distribution
-
+![image alt](https://github.com/ifyyoyo/Healthcare-Data-Science-Project-Stroke-Risk-Prediction/blob/a575f92ac3fe844b1737975ce818d0bded178b43/Screenshot%202026-03-10%20110520.png)
 
 
 
