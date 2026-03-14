@@ -64,7 +64,6 @@ Observation:
 * Individuals in private and self-employed categories likely represent the adult working population, which explains the higher number of stroke occurrences in these groups.
 * People in urban areas are more likely to have stroke as compared to the rural areas.
 
-
 ### 4. FEATURE CORRELATION
 A correlation heatmap was used to visualize the relationships between different features in the dataset.From the analysis, age shows a relatively strong positive correlation with ever_married (0.68) and moderate correlations with hypertension, heart disease, and BMI, indicating that these health factors tend to increase with age.
 
